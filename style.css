@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffe69e;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo h1{
+    color: #a98542;
+    margin: 10px;
+    font-weight: 900;
+}
+.navlinks li, a{
+    display: inline-block;
+    margin: 10px;
+    color: brown;
+    text-decoration: none;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.navlinks li:hover{
+    border-bottom: 2px solid #a98542;
+}
+.navlinks a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+.navlinks .icon {
+    display: none;
+  }
+.image{
+    background-image: url("images/Download\ premium\ image\ of\ Brown\ botanical\ Memphis\ watercolor\ background\ by\ Adjima\ about\ wallpapers\ desktop\,\ powerpoint\ background\,\ brown\ aesthetic\,\ memphis\ backgrounds\,\ and\ ppt\ background\ light\ brown\ 2373176.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1500px;
+    height: 575px;
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: .9;
+}
+.text h2{
+    color: black;
+    margin-top: 200px;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.text p{
+    color: #a98542;    
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.text button{
+    margin-top: 10px;
+    border: 1px dotted black;
+    background-color: #ffe69e;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 10px 35px;
+    font-size: 10px;
+    cursor: pointer;
+}
+.text button:hover{
+    background-color: #a98542;
+    color: white;
+}
+h3{
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+    border-bottom: 1px solid #caa052;
+}
+.service{
+    display: flex;
+    justify-content: space-around;
+}
+.box-1{
+    border-radius: 25% 0% 25% 0px;
+    width: 350px;
+    height: 420px;
+    background-color: #a98542;
+}
+.box-1 img{
+    border-radius: 25% 0% 25% 0px;
+    width: 350px;
+    height: 250px;
+    border: 1px dotted black;
+}
+.box-1 h5{
+    color: #ffe69e;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+.box-1 p{
+    text-align: center;
+    font-size: 12px;
+    margin: 2px;
+}
+.box-1 h6{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+.about{
+    margin-top: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.contant h2{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contant p{
+    text-align: center;
+}
+.contant button{
+    margin-top: 20px;
+    border: 1px dotted black;
+    background-color: #ffe69e;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 10px 35px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-left: 500px;   
+}
+.contant button:hover{
+    background-color: #a98542;
+    color: white;
+}
+.product img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 30px;
+}
+.photos{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.popular h2{
+    text-align: center;
+    margin-top: 30px;
+}
+.photos img{
+    border: 4px solid #caa052;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.footer{
+    margin-top: 30px;
+    padding-left: 60px;
+    background-color: white;
+}
+.footer h2{
+    text-align: center;
+    font-size: 50px;
+    color: #a98542;
+    margin: 30px;
+}
+.footer a{
+    display: inline-block;
+    padding-left: 50px;
+    font-size: 30px;
+    margin-left: 200px;
+}
+@media only screen and (max-width: 600px){
+   .header{
+    display: flex;
+    flex-direction: column;
+}
+.logo h1{
+    text-align: center;
+}
+.navlinks li{
+    padding-left: 5px;
+    margin: 5px;
+}
+.image{
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+}
+.text h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.text button{
+    margin-bottom: 20px;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-1{
+    margin-bottom: 30px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+}
+.contant button{
+    margin-left: 140px;
+    margin-bottom: 20px;
+}
+.contant{
+    order: 2;
+}
+.contant h2{
+    margin-top: 5px;
+}
+.product img{
+    order: 1;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 54px;
+}
+.photos{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    font-size: 50px;
+    text-align: center;   
+    border-bottom: 1px solid #caa052;
+}
+.footer{
+    margin: 0;
+    padding: 0;
+}
+.footer a{
+    margin-left: 40px;
+    padding-left: 10px;
+    display: inline-block;
+
+}
